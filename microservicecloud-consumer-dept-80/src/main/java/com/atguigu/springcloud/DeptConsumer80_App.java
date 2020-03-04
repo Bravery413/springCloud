@@ -13,7 +13,6 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 //@RibbonClient(name="MICROSERVICECLOUD-DEPT",configuration=MySelfRule.class)
 public class DeptConsumer80_App
 {
-	//成功
 	public static void main(String[] args)
 	{
 		SpringApplication.run(DeptConsumer80_App.class, args);
